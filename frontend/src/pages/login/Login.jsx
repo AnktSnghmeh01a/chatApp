@@ -37,9 +37,9 @@ const Login = () => {
             />
           </div>
   
-          <a href='#' className='text-sm  hover:underline hover:text-blue-600 mt-2 inline-block mb-2'>
+          <Link to={"/Signup"} className='text-sm  hover:underline hover:text-blue-600 mt-2 inline-block mb-2'>
  						{"Don't"} have an account? 	Signup			
-            </a>
+            </Link>
  
           <div>
             <button className="btn btn-primary btn-block w-full max-w-xs">Login</button>
